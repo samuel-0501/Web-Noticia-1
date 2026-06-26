@@ -1,0 +1,121 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Espaço Publicitário */
+.banner-publicidade {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.img-pub {
+    width: 728px;
+    height: 90px;
+    object-fit: cover; /* Evita distorção */
+}
+
+/* Conteúdo Principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.noticia-header h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.lead {
+    font-size: 18px;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.meta-dados {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+/* Imagens da Notícia */
+.noticia-capa {
+    margin-bottom: 20px;
+}
+
+.img-capa {
+    width: 100%;
+    height: 450px; /* Mantém a proporção 1200x675 adaptada */
+    object-fit: cover;
+}
+
+.noticia-corpo p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.noticia-materia {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.img-materia {
+    width: 100%;
+    max-width: 600px;
+    height: 450px; /* Mantém a proporção 4:3 */
+    object-fit: cover;
+}
+
+/* Footer e Botão */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#btnInteracao {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#btnInteracao:hover {
+    background-color: #0056b3;
+}
